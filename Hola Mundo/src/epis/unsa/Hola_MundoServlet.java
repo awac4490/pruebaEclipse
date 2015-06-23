@@ -7,8 +7,8 @@ import javax.servlet.http.*;
 public class Hola_MundoServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
-		resp.setContentType("text/plain");
-		resp.getWriter().println("Hola, este es mi primer servlet");
+		resp.setContentType("text/html");
+		resp.getWriter().println("<h1>Hola, este es mi primer servlet</h1>");
 		
 	}
 }
